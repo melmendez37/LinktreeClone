@@ -20,22 +20,27 @@
 <script setup>
     const links = [
         {
-            link: 'https://www.linkedin.com/',
+            link: 'https://www.linkedin.com/in/mendezmelangelo/',
             text: 'LinkedIn',
             icon: 'linkedin'
         },
         {
-            link: 'https://www.github.com/',
+            link: 'https://github.com/melmendez37',
             text: 'Github',
             icon: 'github'
         },
         {
-            link: 'https://www.youtube.com/',
+            link: 'https://www.instagram.com/anjiromeru/',
+            text: 'Instagram',
+            icon: 'Instagram'
+        },
+        {
+            link: 'https://www.youtube.com/@melmendezmusic',
             text: 'YouTube',
             icon: 'youtube'
         },
         {
-            link: 'https://www.facebook.com/',
+            link: 'https://www.facebook.com/melangelo.mendez15',
             text: 'Facebook',
             icon: 'facebook'
         },
