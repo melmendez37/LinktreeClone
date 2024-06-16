@@ -7,7 +7,7 @@
 
         <div class="text-zinc-100 text-center text-lg mt-4">
             <h1 class="font-bold">@mel.mendez37</h1>
-            <h2>The Landing Page</h2>
+            <h2>Welcome to the landing page!</h2>
         </div>
         <div class="flex flex-col items-center">
             <CardLinks v-for="(link, idx) in links" :key="idx" :link="link" class="flex justify-center mt-4"/>
@@ -32,7 +32,7 @@
         {
             link: 'https://www.instagram.com/anjiromeru/',
             text: 'Instagram',
-            icon: 'Instagram'
+            icon: 'instagram'
         },
         {
             link: 'https://www.youtube.com/@melmendezmusic',

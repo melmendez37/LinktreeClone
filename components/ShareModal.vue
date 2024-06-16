@@ -23,7 +23,7 @@
 
             <div @click="shareLink()" class="flex justify-between items-center border border-3 border-zinc-100 rounded-lg p-2">
                 <Icon name="mdi:content-copy" class="text-zinc-100"/>
-                <p class="text-zinc-300 mr-8 text-sm">portfolio-22.netlify.com</p>
+                <p class="text-zinc-300 mr-8 text-sm">https://melangelomendez.netlify.app/</p>
                 <p class="font-bold text-sm text-zinc-100 cursor-pointer hover:text-zinc-300" :class="`${copy === 'Copy' ? 'text-zinc-100' : 'text-green-500'}`">{{copy}}</p>
             </div>
         </div>
@@ -38,7 +38,7 @@ const emits =defineEmits(["update:modelValue"]);
 
 let copy = ref("Copy");
 function shareLink(){
-    navigator.clipboard.writeText("https://sample-site.com")
+    navigator.clipboard.writeText("https://melangelomendez.netlify.app/")
     copy.value="Copied!"
 }
 
